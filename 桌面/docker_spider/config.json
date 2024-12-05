@@ -1,0 +1,32 @@
+{
+  "db_config": {
+    "host": "localhost",
+    "user": "root",
+    "password": "041600",
+    "database": "finance",
+    "charset": "utf8mb4"
+  },
+  "chrome_options": [
+    "--headless",
+    "--disable-gpu",
+    "--no-sandbox"
+  ],
+    "scraper1": {
+  "url": "https://finance.sina.com.cn/7x24/?tag=102",
+  "type": "international",
+  "max_pages": 50
+  },
+  "scraper": {
+    "url": "https://www.fastbull.com/express-news",
+    "type": "english",
+    "max_pages": 50
+  },
+
+  "scraper2": {
+  "type": "market",
+  "max_pages": 50
+  },
+  "schedule": {
+    "interval_minutes": 10
+  }
+}

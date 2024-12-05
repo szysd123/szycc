@@ -1,0 +1,15 @@
+Cython @ file:///C:/ci/cython_1636018292912/work
+mysqlclient==2.2.5
+pep8==1.7.1
+PyMySQL==1.1.1
+pytest==6.2.4
+requests==2.32.3
+requests-file==2.1.0
+requests-toolbelt==1.0.0
+schedule==1.2.2
+scipy @ file:///C:/ci/scipy_1630606917240/work
+Scrapy==2.11.2
+selenium==4.26.0
+sip==4.19.13
+
+
